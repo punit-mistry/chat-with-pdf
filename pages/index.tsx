@@ -1,5 +1,6 @@
 import React from 'react';
 import { useRouter } from 'next/router'
+import Section2 from './section2'
 const Login = () => {
   const router = useRouter()
   return (
@@ -20,13 +21,14 @@ const Login = () => {
           </div>
           <div>
             <div>
-              <button className="border-2 border-black py-1 px-3 rounded-lg hover:bg-black hover:text-white transition-all" onClick={() => router.push('/login')}>
-                Login now{' '}
-              </button>
+              {/* <button className="border-2 border-black py-1 px-3 rounded-lg hover:bg-black hover:text-white transition-all" onClick={() => router.push('/chat-pdf')}>
+                Chat Now {' '}
+              </button> */}
             </div>
           </div>
         </div>
       </div>
+              <Section2 />
     </>
   );
 };
