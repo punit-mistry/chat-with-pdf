@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
-  "author": "Mayooear<twitter:@mayowaoshin>",
+  "author": "Punit>",
   "type": "module",
   "scripts": {
     "dev": "next dev",
@@ -15,11 +15,14 @@
     "ingest": "tsx -r dotenv/config scripts/ingest-data.ts"
   },
   "dependencies": {
+    "@auth0/nextjs-auth0": "^3.5.0",
     "@microsoft/fetch-event-source": "^2.0.1",
     "@pinecone-database/pinecone": "1.1.0",
     "@radix-ui/react-accordion": "^1.1.1",
     "clsx": "^1.2.1",
     "dotenv": "^16.0.3",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
     "langchain": "^0.0.186",
     "lucide-react": "^0.125.0",
     "next": "13.2.3",
